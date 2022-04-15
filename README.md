@@ -1,4 +1,4 @@
-# Green Energy Stock Analysis with VBA in Excel
+# All Stocks Analysis with VBA in Excel
 
 ## Overview of Project
 
