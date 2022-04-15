@@ -13,6 +13,8 @@ The original code was using nested for loops and print out the matched tickers. 
 
 ![2017refactor](VBA_Challenge_2017.png)
 
+![2017refactor](VBA_Challenge_2018.png)
+
 ## Summary
 ### Pros and Cons of Refactoring Code
 - Refactoring Code in general gives a second thought to the original code we write. It will increase the efficiency of our code, refine logic loopholes and make the script look clean and organized. This not only helps the writer understand his code better in the future, but also benefits the users to run  programs with less time and computer energy.
