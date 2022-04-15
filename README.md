@@ -1,4 +1,4 @@
-# Crowdfunding Report for Louise
+# Green Energy Stock Analysis with VBA in Excel
 
 ## Overview of Project
 
