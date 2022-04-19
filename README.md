@@ -62,8 +62,10 @@ The original code was using nested for loops and print out the matched tickers. 
         Cells(4 + j, 1).Value = tickers(j)
         Cells(4 + j, 2).Value = tickerVolumes(j)
         Cells(4 + j, 3).Value = tickerEndingPrices(j) / tickerStartingPrices(j) - 1
-Next j
     
+Next j
+
+
  
 
 
