@@ -55,7 +55,7 @@ The original code was using nested for loops and print out the matched tickers. 
             
     Next i
     
-    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+      '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For j = 0 To 11
         
         Worksheets("All Stocks Analysis").Activate
@@ -63,20 +63,7 @@ The original code was using nested for loops and print out the matched tickers. 
         Cells(4 + j, 2).Value = tickerVolumes(j)
         Cells(4 + j, 3).Value = tickerEndingPrices(j) / tickerStartingPrices(j) - 1
     
-Next j
-
-
-    
-    'Formatting
-    Worksheets("All Stocks Analysis").Activate
-    Range("A3:C3").Font.FontStyle = "Bold"
-    Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
-    Range("B4:B15").NumberFormat = "#,##0"
-    Range("C4:C15").NumberFormat = "0.0%"
-    Columns("B").AutoFit
-
-    dataRowStart = 4
-    dataRowEnd = 15
+    Next j
 
 
 ## Summary
