@@ -7,9 +7,9 @@ Steve wanted to analyze the stock of a company called DAQO New Energy Corp (DQ) 
 
 ## Results
 
-- The refactored code did increase the efficiency by reduce the run time of the code. The original code run time for 2017 and 2018 were 0,605 seconds and 0.578+ seconds. The refactored one only takes 0.121 seconds for 2017 and 0.133 for 2018.
+- The refactored code did increase the efficiency by reduce the run time of the code. The original code run time for 2017 and 2018 were 0.605 seconds and 0.578+ seconds. The refactored one only takes 0.121 seconds for 2017 and 0.133 for 2018.
 
-- The original code was using nested for loops and print out the matched tickers. The outer loop ran through the 12 tickers and the inner loop ran through the rows. The refactored code, however, was only using seperate for loops. Two variables was used, i and j, referring to the rows and the 12 tickers. The code details are listed below.
+- The original code was using nested for loops and print out the matched tickers. The outer loop ran through the 12 tickers and the inner loop ran through the rows. The refactored code, however, does not use nested for loops, but only several independent for loops. Two variables was used, i and j, referring to the rows and the 12 tickers. The code details are listed below.
 
 ![2017refactor](VBA_Challenge_2017.png)
 
@@ -68,9 +68,16 @@ Steve wanted to analyze the stock of a company called DAQO New Energy Corp (DQ) 
 
 
 ## Summary
-### Pros and Cons of Refactoring Code
-- Refactoring Code in general gives a second thought to the original code we write. It will increase the efficiency of our code, refine logic loopholes and make the script look clean and organized. This not only helps the writer understand his code better in the future, but also benefits the users to run  programs with less time and computer energy.
-- However, every coin has two sides. Refactoring the original code, which has been proved to be working, can bring in new bugs or conflicts with other programes in the main branch system.
+### Pros and Cons of Refactoring Code In General
+
+- Refactoring Code in general gives a second thought to the original code we write. It will increase the efficiency of our code, refine logic loopholes and make the script look clean and concise. This not only helps the writer understand his code better in the future, but also benefits the users to run  programs with less time and computer energy.
+
+- However, every coin has two sides. Refactoring the original code, which has been proved to be working, can bring in new bugs or conflicts with other programes in the main branch system. It also sometimes requires a better methametics logic and higher coding skills to get a lean script. 
 
 ### Pros and Cons of of the original All Stock Analysis VBA Script
+
+- The original All Stock Anaalysis VBA Script looks long and complicated, it has nested loops that requires longer time for the computer to process. It also could lead to more bugs because of the complication there. However, the pros are that it's easier for the writer to put the code down because it's the flow of the writer's thought. It might be tedious but it didn't require the writer to organize the codes, but only follow the writer's thought and write the script step by step.
+
 ### Pros and Cons of of the refactored All Stock Analysis VBA Script
+
+- The refactored script looks clean and concise. One of the biggest pros is that it significantly reduce the time for the computer to process the macro than the original one. The cons are also obvious. The writer needs to have a very clear picture of the whole script and think thoroughly before putting the code down. Otherwise, in the worst case senario, one careless move would forfeit the whole game.
